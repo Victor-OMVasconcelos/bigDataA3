@@ -73,21 +73,16 @@ Fontes potenciais identificadas para coleta de dados incluem:
 
 * Dados históricos de ocorrências policiais de trânsito (CSV, JSON, RDS).
 * Datasets públicos relacionados a abordagens policiais e comportamento de infratores.
-* APIs de bases governamentais ou de segurança pública (a definir).
-* Exemplo de datasets públicos: Stanford Open Policing Project (dados de paradas policiais nos EUA), bases do Data.gov, Bureau of Justice Statistics.
-* Para o mapa de fonte de dados, foi acessado os sites Stanford Open Policing Project, Traffic Stop Data NCSL, mas o que realmente foi utilizado foi o dataset disponível em: ( [https://www.kaggle.com/datasets/stanford-open-policing/stanford-open-policing-project-bundle-1?select=CT.csv](url) ).
+* APIs de bases governamentais ou de segurança pública.
+* Exemplo de datasets públicos encontrados: Stanford Open Policing Project (dados de paradas policiais nos EUA), bases do Data.gov, Bureau of Justice Statistics.
+* Para o mapa de fonte de dados, foi acessado os sites Stanford Open Policing Project, Traffic Stop Data NCSL, mas o que realmente foi utilizado foi o dataset disponível em: ( [https://www.kaggle.com/datasets/stanford-open-policing/stanford-open-policing-project-bundle-1?select=CT.csv](url) ), devido a erros relacionados ao acesso, foi necessário utilizar esse site que disponibiliza o download dos dados de forma direta sem uso de serviços terceirizados.
   
-Entrega: Mapa de fontes de dados.
 ________________________________________
 **2.2 Implementação da coleta de dados**
 
-* O sistema deve importar conjuntos de dados nos formatos CSV, JSON e RDS (RF01).
+* O sistema deve importar conjuntos de dados nos formatos CSV (RF01).
 
-* A coleta deve contemplar a importação automatizada e manual desses arquivos para alimentar a base de dados.
-
-* Deve ser possível integrar dados de múltiplas fontes, organizando-os para análise posterior.
-
-* Para o processamento desses dados foi utilizado o programa Python e Jupyter para análise do arquivo CSV, executado no VS Code utilizando extensões de Python e Jupyter, com os seguintes comandos para configuração do ambiente:
+* Para o processamento desses dados foi utilizado o programa Python e Jupyter para análise do arquivo CSV semiestruturado, executado no VS Code utilizando extensões de Python e Jupyter, com os seguintes comandos para configuração do ambiente:
 
   ________________________________________
 ```**Código para visualização dos dados no VS Code**
@@ -121,6 +116,4 @@ ________________________________________
 
 * Deve permitir fácil manutenção e evolução do sistema (RNF06).
 
-* **Obs: A definição da estrutura de armazenamento ainda não foi pensada, portanto não há alterações para essa etapa no momento.**
-
-Entrega: Base de dados inicial estruturada.
+________________________________________
