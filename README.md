@@ -2,9 +2,12 @@
 
 ________________________________________
 # 1. Caso de estudo
-1.1 Descrição do problema
+**1.1 Descrição do problema:**
+
 Durante abordagens policiais de trânsito, situações inicialmente rotineiras podem evoluir para cenários de risco devido ao comportamento do infrator. Essa escalada pode resultar em confrontos, necessidade de uso da força ou até prisões.
+
 Atualmente, não há um sistema estruturado que permita analisar dados históricos dessas abordagens para identificar padrões comportamentais que indiquem risco de escalada.
+
 Dessa forma, surge a necessidade de um sistema capaz de analisar dados de ocorrências, identificar padrões e fornecer suporte à tomada de decisão dos agentes de segurança.
 ________________________________________
 **1.2 Hipóteses**
